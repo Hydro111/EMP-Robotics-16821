@@ -2,6 +2,7 @@
 Repository for the West High ELPer EMP Robotics team.
 
 Team members:
-* A. Person
-Developers:
+* A. Person 
+
+Developers: 
 * Another Person
