@@ -5,4 +5,4 @@ Team members:
 * A. Person 
 
 Developers: 
-* Another Person
+* Hale Barber
