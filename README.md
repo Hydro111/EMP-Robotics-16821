@@ -2,7 +2,12 @@
 Repository for the West High 8th grade EMP Robotics team.
 
 Team members:
-* A. Person 
+* A. Tysen Silverstein
+* B. Hale Barber
+* C. Aadarsh Kuberan
+* D. Aidan Yu
+* E. Stefan Neugebauer
 
 Developers: 
 * Hale Barber
+* Tysen Silverstein
