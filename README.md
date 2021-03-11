@@ -11,3 +11,4 @@ Team members:
 Developers: 
 * Hale Barber
 * Tysen Silverstein
+* Stefan Neugebauer
