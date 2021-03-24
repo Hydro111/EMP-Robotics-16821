@@ -46,7 +46,6 @@ public class Drive {
     motor2A.setPower(0.0);
     motor1B.setPower(0.0);
     motor2B.setPower(0.0);
-    //Set wheels to forward position
   }
   
   static void moveTurn(speed, turn, strafe){
@@ -57,14 +56,13 @@ public class Drive {
     motor1B.setPower(s2);
     motor2B.setPower(s1);
     
-    //TODO: add strafe capability?
+    //TODO: add strafe capability
   }
   
   static void turn(power){
-    //put wheels in rotation posittion
-    motor1A.setPower(power);
+    motor1A.setPower(-1*power);
     motor2A.setPower(power);
-    motor1B.setPower(power);
+    motor1B.setPower(-1*power);
     motor2B.setPower(power);
   }
   
