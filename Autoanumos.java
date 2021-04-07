@@ -27,16 +27,16 @@ public class Autoanumos extends LinearOpMode {
     motor3AsDcMotor = hardwareMap.get(DcMotor.class, "motor3AsDcMotor");
 
     // Put initialization blocks here.
+    public double[] color = sensor_colorAsColorSensor.argb;
     waitForStart();
     if (opModeIsActive()) {
       // Put run blocks here.
-      public double[] color = sensor_colorAsColorSensor.argb
       motor2AsDcMotor.setPower(0.25);
       motor1AsDcMotor.setPower(0.25);
       motor0AsDcMotor.setPower(0.25);
       motor3AsDcMotor.setPower(0.25);
       // wait until on line
-      while (color[1] < 190){;}
+      while (color[1] < 190){color = sensor_colorAsColorSensor.argb;}
       //Drive.stop()
       motor2AsDcMotor.setPower(0.0);
       motor1AsDcMotor.setPower(0.0);
