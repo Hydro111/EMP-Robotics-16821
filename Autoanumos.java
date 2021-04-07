@@ -42,7 +42,18 @@ public class Autoanumos extends LinearOpMode {
       motor1AsDcMotor.setPower(0.0);
       motor0AsDcMotor.setPower(0.0);
       motor3AsDcMotor.setPower(0.0);
-      //TODO move shooter to right position (with help from immage recognizer?). Shoot.
+      sleep(100);
+      motor2AsDcMotor.setPower(-0.1);
+      motor1AsDcMotor.setPower(-0.1);
+      motor0AsDcMotor.setPower(-0.1);
+      motor3AsDcMotor.setPower(-0.1);
+      sleep(200)
+      //Drive.stop()
+      motor2AsDcMotor.setPower(0.0);
+      motor1AsDcMotor.setPower(0.0);
+      motor0AsDcMotor.setPower(0.0);
+      motor3AsDcMotor.setPower(0.0);
+      
     }
   }
 }
