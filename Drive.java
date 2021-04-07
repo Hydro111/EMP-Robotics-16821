@@ -69,6 +69,8 @@ public class Drive {
   static void move(power, strafe){
     // power = power forward
     // strafe = power sideways
+    // strafe = 1B - 1A
+    // power = ?
     motor1A.setPower(power);
     motor2A.setPower(power);
     motor1B.setPower(power);
