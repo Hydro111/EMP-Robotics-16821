@@ -67,7 +67,8 @@ public class Drive {
   }
   
   static void move(power, strafe){
-    //set wheels to angle %strafe%
+    // power = power forward
+    // strafe = power sideways
     motor1A.setPower(power);
     motor2A.setPower(power);
     motor1B.setPower(power);
