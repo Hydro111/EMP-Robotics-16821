@@ -30,15 +30,18 @@ public class Autoanumos extends LinearOpMode {
     waitForStart();
     if (opModeIsActive()) {
       // Put run blocks here.
-      motor2AsDcMotor.setPower(-0.25);
-      motor1AsDcMotor.setPower(-0.25);
-      motor0AsDcMotor.setPower(-0.25 / -1);
-      motor3AsDcMotor.setPower(-0.25);
-      sleep(4250);
-      motor0AsDcMotor.setPower(0);
-      motor1AsDcMotor.setPower(0);
-      motor2AsDcMotor.setPower(0 / -1);
-      motor3AsDcMotor.setPower(0);
+      public double[] color = sensor_colorAsColorSensor.argb
+      motor2AsDcMotor.setPower(0.25);
+      motor1AsDcMotor.setPower(0.25);
+      motor0AsDcMotor.setPower(0.25);
+      motor3AsDcMotor.setPower(0.25);
+      // wait until on line
+      while (color[1] < 190){;}
+      //Drive.stop()
+      motor2AsDcMotor.setPower(0.0);
+      motor1AsDcMotor.setPower(0.0);
+      motor0AsDcMotor.setPower(0.0);
+      motor3AsDcMotor.setPower(0.0);
     }
   }
 }
